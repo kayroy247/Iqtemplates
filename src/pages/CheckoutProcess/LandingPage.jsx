@@ -5,20 +5,18 @@ export default () => {
         <div className="content">
             <ul>
                 <li>Please click each link below to view the pages</li>
-                <li>
-                    <Link to="/">Home Complete your Purchase</Link>
+
+                <li >
+                    <Link className="text-2xl underline text-purple" to="/billing-info">BILLING INFO PAGE</Link>
                 </li>
                 <li>
-                    <Link to="/billing-info">BILLING INFO PAGE</Link>
+                    <Link className="text-2xl underline text-purple" to="/confirm-payment">CONFIRM PAYMENT PAGE</Link>
                 </li>
                 <li>
-                    <Link to="/confirm-payment">CONFIRM PAYMENT PAGE</Link>
+                    <Link className="text-2xl underline text-purple" to="/profile-info">PROFILE INFO PAGE</Link>
                 </li>
                 <li>
-                    <Link to="/profile-info">PROFILE INFO PAGE</Link>
-                </li>
-                <li>
-                    <Link to="/purchase-completed">PURCHASE COMPLETED PAGE</Link>
+                    <Link className="text-2xl underline text-purple" to="/purchase-completed">PURCHASE COMPLETED PAGE</Link>
                 </li>
             </ul>
         </div>
