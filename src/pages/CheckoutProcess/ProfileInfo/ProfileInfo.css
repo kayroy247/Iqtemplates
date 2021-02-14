@@ -1,0 +1,47 @@
+.progress {
+    display: grid;
+    grid-template: 
+     "1fr 1fr 1fr"
+    ;
+   
+    align-items: center;
+    
+}
+
+.lining{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    align-self:center; 
+    
+}
+
+.indicator-personal{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 170px;
+    height: 13px;
+    border-radius: 10px;
+    
+}
+
+input{
+    border-radius: 10px;
+    height: 50px;
+    max-width: 710px;
+    padding-left: 27px;
+
+}
+
+.custom-button{
+    background: linear-gradient(180deg, #F2C94C 0%, #F2994A 100%);;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    color: white;
+}
+
+.cancel-button{
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+}
